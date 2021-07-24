@@ -11,7 +11,7 @@ public class GenerateIdService {
     }
 
     public String getId() {
-        int number = random.nextInt(10);
+        int number = this.random.nextInt(10);
         return "XYZ" + number;
     }
 }
