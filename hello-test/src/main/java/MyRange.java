@@ -1,4 +1,5 @@
 public class MyRange {
+
     private final String input;
 
     public MyRange(String input) {
